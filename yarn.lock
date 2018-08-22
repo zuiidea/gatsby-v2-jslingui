@@ -410,6 +410,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.52"
 
+"@babel/plugin-syntax-dynamic-import@^7.0.0-rc.2":
+  version "7.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.0.0-rc.2.tgz#a21957616ee59691d57de45d18e8e40b8855fa7e"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-rc.2"
+
 "@babel/plugin-syntax-jsx@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.0.0-beta.52.tgz#ed57b2ca5ab5bcf931c419b111e8df0318f8f65e"

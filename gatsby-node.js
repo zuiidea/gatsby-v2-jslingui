@@ -19,6 +19,10 @@ exports.onCreateBabelConfig = props => {
     name: '@babel/plugin-proposal-object-rest-spread',
   })
 
+  actions.setBabelPlugin({
+    name: '@babel/plugin-syntax-dynamic-import',
+  })
+
   actions.setBabelPreset({
     name: '@lingui/babel-preset-react',
   })
