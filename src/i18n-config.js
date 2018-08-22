@@ -4,11 +4,11 @@ const catalogs = {
   zh: { messages: require('./locales/zh/messages.json') }
 }
 
-const defaultLanguage = 'zh'
+const defaultLanguage = 'en'
 
 const prefix = (lang) => (lang === defaultLanguage ? '/' : '/' + lang)
-const deprefix = (pathname) => (pathname.startsWith('/zh/') ? pathname.substr(4) : pathname)
-const langFromPath = (pathname) => (pathname.startsWith('/en/') ? 'en' : 'zh')
+const deprefix = (pathname) => (pathname.startsWith('/en/') ? pathname.substr(4) : pathname)
+const langFromPath = (pathname) => (pathname.startsWith('/zh/') ? 'zh' : 'en')
 
 exports.defaultLanguage = defaultLanguage
 exports.languages = languages

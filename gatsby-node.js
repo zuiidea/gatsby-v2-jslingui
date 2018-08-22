@@ -18,6 +18,10 @@ exports.onCreateBabelConfig = props => {
   actions.setBabelPlugin({
     name: '@babel/plugin-proposal-object-rest-spread',
   })
+
+  actions.setBabelPreset({
+    name: '@lingui/babel-preset-react',
+  })
 }
 
 exports.onCreatePage = async ({ page, actions }) => {
@@ -28,14 +32,17 @@ exports.onCreatePage = async ({ page, actions }) => {
     languages.map(language => {
       const newPage = Object.assign({}, page, {
         originalPath: page.path,
-        path:
-          language === defaultLanguage ? page.path : '/' + language + page.path,
+        path: '/' + language + page.path,
         context: {
           lang: language,
         },
       })
 
       createPage(newPage)
+      if (language === defaultLanguage) {
+        newPage.path = page.path
+        createPage(newPage)
+      }
     })
 
     resolve()

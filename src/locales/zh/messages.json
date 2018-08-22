@@ -1,1 +1,15 @@
-{}
+{
+  "/": "/zh/",
+  "/page-2": "/zh/page-2",
+  "Chinese": "中文",
+  "English": "English",
+  "Go back to the homepage": "",
+  "Go to page 2": "转到Page2",
+  "Hi from the second page": "",
+  "Hi people": "你好",
+  "NOT FOUND": "未找到页面",
+  "Now go build something great.": "现在去构建一些伟大的东西.",
+  "Welcome to page 2": "欢迎来到Page2",
+  "Welcome to your new Gatsby site.": "欢迎来到你的Gatsby网站。",
+  "You just hit a route that doesn't exist... the sadness.": "您访问的页面不存在...😂。"
+}

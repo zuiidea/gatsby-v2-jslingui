@@ -1,1 +1,15 @@
-{}
+{
+  "/": "/",
+  "/page-2": "/page-2",
+  "Chinese": "中文",
+  "English": "English",
+  "Go back to the homepage": "Go back to the homepage",
+  "Go to page 2": "Go to page 2",
+  "Hi from the second page": "Hi from the second page",
+  "Hi people": "Hi people",
+  "NOT FOUND": "NOT FOUND",
+  "Now go build something great.": "Now go build something great.",
+  "Welcome to page 2": "Welcome to page 2",
+  "Welcome to your new Gatsby site.": "Welcome to your new Gatsby site.",
+  "You just hit a route that doesn't exist... the sadness.": "You just hit a route that doesn't exist... the sadness."
+}
