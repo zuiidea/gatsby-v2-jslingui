@@ -12,7 +12,6 @@
     "@lingui/react": "^2.4.2",
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
