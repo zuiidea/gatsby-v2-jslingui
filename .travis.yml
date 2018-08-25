@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "node"
+  - node
+script: 
+  - npm run extract
+  - npm run build
+deploy:
+  provider: surge
+  project: ./public/
+  domain: gatsby-v2-jslingui.surge.sh 
